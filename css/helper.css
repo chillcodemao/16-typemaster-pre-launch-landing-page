@@ -1,0 +1,90 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+.pre-order-nav-btn {
+    background-color: #E8EFF2;
+}
+
+.pre-order-nav-btn a {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #162542;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    color: #162542;
+}
+
+.tm-keyboard-description {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #7B8BAD;
+}
+
+.pre-order-main-btn {
+    background-color: #F16718;
+}
+
+.pre-order-main-btn a {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #FFF;
+}
+
+.pre-order-keyboard p {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #7B8BAD;
+}
+
+.tm-keyboard-type-brief h2 {
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    color: #162542;
+}
+
+.tm-keyboard-type-brief p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #7B8BAD;
+}
+
+.card h2 {
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #162542;
+}
+
+.card p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #7B8BAD;
+}
+
+footer p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #7B8BAD;
+}
+
+footer span {
+    font-weight: 700;
+}
+

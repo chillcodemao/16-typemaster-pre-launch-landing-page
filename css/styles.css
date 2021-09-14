@@ -1,0 +1,458 @@
+body {
+    min-height: 100vh;
+    padding: 2.3rem 2.4rem 5rem 2.4rem;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 144rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 111rem;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    max-width: 111rem;
+    box-sizing: border-box;
+}
+
+.pre-order-nav-btn {
+    padding: 1.1rem 1.4rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.main-container {
+    margin-top: 6.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tm-keyboard-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6.4rem;
+}
+
+.tm-keyboard-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3.2rem;
+}
+
+.pre-order-keyboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.pre-order-main-btn {
+    padding: 1.1rem 1.4rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.tm-keyboard-images {
+    display: flex;
+    flex-direction: row;
+    height: 33.1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-pattern-right {
+    display: none;
+}
+
+.tm-keyboard-product-image {
+    background-image: url(../img/mobile/image-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 37.2rem;
+    height: 33.1rem;
+    border-radius: 2rem;
+    position: absolute;
+    right: -2.2rem;
+}
+
+.tm-keyboard-brief {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5rem;
+}
+
+.tm-keyboard-gallery {
+    margin-top: 2.4rem;
+    display: flex;
+    flex-direction: row;
+    height: 19.3rem;
+    width: 100%;
+}
+
+
+.square-pattern-left {
+    display: none;
+}
+
+.tm-keyboard-image-phone {
+    display: inline-block;
+    background: url(../img/mobile/image-phone-and-keyboard.jpg) rgba(241, 103, 24, 0.95);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 12.9rem;
+    height: 19.3rem;
+    border-radius: 2rem;
+    position: absolute;
+    left: -2rem;    
+}
+
+.tm-keyboard-image-glass {
+    display: inline-block;
+    background-image: url(../img/mobile/image-glass-and-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 22rem;
+    height: 19.3rem;
+    border-radius: 2rem;
+    position: absolute;
+    left: 13.1rem;
+}
+
+.tm-keyboard-type-brief {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+    text-align: center;
+}
+
+.tm-keyboard-type-brief h2 {
+    max-width: 25.5rem;
+}
+
+.tm-keyboard-features {
+    margin-top: 4.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 6.5rem;
+    height: 6.5rem;
+    background-color: #F16718;
+    border-radius: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 6.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card h2 {
+    margin-top: 4.8rem;
+    max-width: 19rem;
+}
+
+.card p {
+    margin-top: 2.4rem;
+}
+
+footer {
+    margin-top: 9.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 4.9rem 4rem 4.3rem 4rem;
+    }
+
+    .main-container {
+        margin-top: 13.1rem;
+    }
+
+    .tm-keyboard-about {
+        flex-direction: row;
+        gap: 6.9rem;
+    }
+
+    .tm-keyboard-intro {
+        gap: 3.4rem;
+    }
+
+    .pre-order-main-btn, .pre-order-nav-btn {
+        padding: 1.6rem 2.7rem;
+    }
+
+    .tm-keyboard-product-image {
+        width: 47.8rem;
+        height: 42.5rem;
+        right: -16rem;
+    }
+
+    .tm-keyboard-brief {
+        gap: 7.2rem;
+    }
+    
+    .tm-keyboard-gallery {
+        margin-top: 8rem;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        height: 32rem;
+    }
+
+    .tm-keyboard-image-phone {
+        position: static;
+        width: 21.4rem;
+        height: 32rem;
+    }
+
+    .tm-keyboard-image-glass {
+        position: static;
+        width: 44.5rem;
+        height: 32rem;
+    }
+
+    .tm-keyboard-type-brief {
+        flex-direction: row;
+        text-align: left;
+        gap: 9.2rem;
+    }
+
+    .tm-keyboard-features {
+        margin-top: 14.2rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 7.2rem;
+        max-width: 64rem;
+    }
+
+    .card {
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .icon {
+        align-self: flex-start;
+    }
+
+    .card h2 {
+        align-self: flex-start;
+    }
+
+    .card p {
+        max-width: 28.1rem;
+    }
+
+    footer {
+        margin-top: 14.2rem;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    body {
+        padding: 4.9rem 16.5rem 3.9rem 16.5rem;
+    }
+
+    .main-container {
+        margin-top: 14.3rem;
+    }
+
+    .tm-keyboard-about {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12.5rem;
+        max-width: 111rem;
+    }
+
+    .tm-keyboard-intro {
+        max-width: 44.5rem;
+        gap: 0rem;
+    }
+
+    .tm-keyboard-intro h1 {
+        font-size: 5.6rem;
+        line-height: 5.6rem;
+    }
+
+    .tm-keyboard-intro p {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        margin-top: 2.4rem;
+    }
+
+    .pre-order-keyboard {
+        margin-top: 4rem;
+        gap: 4rem;
+    }
+
+    .pre-order-keyboard p {
+        margin-top: 0rem;
+    }
+
+    .tm-keyboard-images {
+        max-width: 54rem;
+        max-height: 48rem;
+    }
+
+    .tm-keyboard-product-image {
+        position: static;
+        width: 54rem;
+        height: 48rem;
+        background-image: url(../img/desktop/image-keyboard.jpg);
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .square-pattern-right {
+        display: inline-block;
+        width: 25.5rem;
+        height: 24rem;
+        background-image: url(../img/shared/pattern-square.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 130rem;
+        top: 17.5rem;
+    }
+
+    .tm-keyboard-brief {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 12rem;
+        width: 100%;
+        height: 48rem;
+    }
+
+    .tm-keyboard-gallery {
+        margin-top: 0rem;
+        width: 73rem;
+        height: 48rem;
+        gap: 3rem;
+    }
+
+    .square-pattern-left {
+        display: inline-block;
+        width: 25.5rem;
+        height: 23.6rem;
+        background-image: url(../img/shared/pattern-square.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 94.5rem;
+        left: -11.8rem;
+    }
+
+    .tm-keyboard-image-phone {
+        background-image: url(../img/desktop/image-phone-and-keyboard.jpg);
+        width: 25.5rem;
+        height: 48rem;
+    }
+
+    .tm-keyboard-image-glass {
+        background-image: url(../img/desktop/image-glass-and-keyboard.jpg);
+        width: 44.5rem;
+        height: 48rem;
+    }
+
+    .tm-keyboard-type-brief {
+        flex-direction: column;
+        gap: 2.7rem;
+        max-width: 25.5rem;
+    }
+
+    .tm-keyboard-features {
+        margin-top: 16.8rem;
+        max-width: 111rem;
+        gap: 3rem;
+        justify-content: center;
+    }
+
+    .card {
+        margin-top: 0rem;
+    }
+
+    .card p {
+        max-width: 25.5rem;
+    }
+
+    footer {
+        margin-top: 12.8rem;
+    }
+
+    .pre-order-nav-btn:hover, .pre-order-nav-btn:focus {
+        background-color: #162542;
+        cursor: pointer;
+    }
+
+    .pre-order-nav-btn:hover a, .pre-order-nav-btn:focus a{
+        color: #FFF;
+    }
+
+    .pre-order-main-btn:hover, .pre-order-main-btn:focus {
+        background-color: #FF9B62;
+        cursor: pointer;
+    }
+
+    .pre-order-main-btn:hover a, .pre-order-main-btn:focus a {
+        color: #FFF;
+    }
+
+}
